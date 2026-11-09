@@ -21,14 +21,15 @@
 <body>
 <main>
   <h1>Coding Companion for RevolutionEHR: privacy</h1>
-  <p class="meta">Published by Dr. Earls Optometry Tools · Last updated September 26, 2026</p>
+  <p class="meta">Published by Dr. Earls Optometry Tools · Last updated November 9, 2026</p>
 
   <p class="lead"><strong>Coding Companion does not collect, send or sell any information.</strong> Everything it keeps stays in your browser on your computer, and it makes no network requests of its own.</p>
 
   <h2>What it keeps on your computer</h2>
   <p>In the browser's own storage for this extension:</p>
   <ul>
-    <li><strong>Your Packages:</strong> the diagnosis codes, plan text and service codes you build or import. They contain no patient information.</li>
+    <li><strong>Your Packages:</strong> the diagnosis codes, plan text, and service codes you build or import. They are meant to hold no patient information.</li>
+    <li><strong>While an exam is being copied into a new Package:</strong> what was read from that encounter, kept only until Package Builder opens it and then deleted. If you cancel the copy, it is deleted.</li>
     <li><strong>A copy of your practice's service list</strong> (service codes, descriptions and RevolutionEHR's ids for them), taken only when you click Refresh service list, so the Package Builder can search it.</li>
     <li><strong>Code check results:</strong> which of your Packages' codes RevolutionEHR accepted, and when.</li>
     <li>Small display preferences, such as how the Package Library is sorted.</li>
@@ -37,6 +38,7 @@
 
   <h2>What it reads in RevolutionEHR</h2>
   <p>Coding Companion only runs on revolutionehr.com. When you apply a Package, it reads the diagnoses and services already on the open encounter, so that it doesn't add a code twice and can attach diagnoses to the right service lines. It then enters the codes and plan text you confirmed, through RevolutionEHR's own screens. What it reads from the encounter is used for that one action and is not stored or sent anywhere.</p>
+  <p>When you start a Package from an exam, it reads the open encounter’s diagnoses, plan items, and services, without writing anything to the chart. Those go only to Package Builder on your computer, as an unsaved draft. Nothing is kept unless you save the Package, and nothing is sent anywhere.</p>
 
   <h2>Network use</h2>
   <p>The extension sends nothing over the internet. It has no analytics, no tracking, no advertising and no remote code. The only network traffic while it works is RevolutionEHR's own, the same as when you enter codes by hand.</p>
