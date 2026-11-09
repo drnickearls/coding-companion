@@ -24,8 +24,8 @@
   <p>No. Packages are saved in your browser on your computer, so changes are only seen by you. Someone on another computer, another Windows account, or another browser or browser profile won't see them. Anyone using the same browser profile as you will. To share Packages, use Export and Import in the Package Library.</p>
 
   <h2>Is this extension HIPAA compliant? Does it share patient data with anyone?</h2>
-  <p>It doesn't share any data with anyone, including its developer: the extension makes no network requests of its own. Your Packages stay in your browser, contain codes and plan text rather than patient information, and no one else can see them unless you export and share the file.</p>
-  <p>It also never reads who the patient is. From the page address it takes only the encounter ID, and it reads only what is already on the open encounter (its diagnoses, services and plan items) to avoid adding anything twice, without keeping or sending it. So it has no way to connect a patient with a diagnosis.</p>
+  <p>It doesn't share any data with anyone, including its developer: the extension makes no network requests of its own. Your Packages stay in your browser, and no one else can see them unless you export and share the file. They are meant to hold codes and plan text, not patient information.</p>
+  <p>It also never reads who the patient is. From the page address it takes only the encounter ID. When you apply a Package, it reads only what is already on the open encounter (its diagnoses, services, and plan items) to avoid adding anything twice, without keeping or sending it. When you start a Package from an exam, it reads that encounter’s diagnoses, plan items, and services once, hands them to Package Builder on your computer, and then deletes its copy. Nothing is kept unless you save the Package.</p>
   <p>Whether a practice's use of any software meets HIPAA is for the practice to decide. The details are in the <a href="privacy.html">privacy statement</a>.</p>
 
   <h2>Contact</h2>
