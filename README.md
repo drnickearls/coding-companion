@@ -8,7 +8,7 @@ It is an independent tool by Dr. Earls Optometry Tools, in a private beta. It is
 
 A **Package** holds the diagnoses (ICD-10), the plan text under each diagnosis, and the services (CPT codes) with their diagnoses attached, for an exam type such as "Glaucoma Evaluation" or "Dry Eye Evaluation". Three parts work together:
 
-- **Package Library**: a browser tab listing your Packages. Create, edit, import and export them here.
+- **Package Library**: a browser tab listing your Packages. Create, edit, import, and export them here, or start one from an exam you've already coded: it copies that exam's diagnoses, plan lines, and CPT codes into a new Package for you to review and save.
 - **Package Builder**: a browser tab for building one Package. Search the full ICD-10 list by words in any order (including abbreviations like ARMD or POAG), search your practice's own service list, write plan lines with fill-in questions, and attach each diagnosis to the codes it supports.
 - **Coding Companion**: a sidebar inside RevolutionEHR during an encounter. Tick the Packages you want, review every code in Coding Preview, then apply them. It also has a quick search for adding a single diagnosis by itself.
 
